@@ -79,9 +79,7 @@ export default function HomePage() {
           <h1 className="text-4xl font-bold text-gradient mb-3">
             Math Quiz Arena
           </h1>
-          <p className="text-gray-400 text-lg">
-            Race against others to solve math problems first
-          </p>
+         
         </div>
 
         {/* Username Form */}
@@ -99,7 +97,7 @@ export default function HomePage() {
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="e.g. MathWizard42"
+                placeholder="e.g. Maverick"
                 className="input-field text-lg"
                 maxLength={20}
                 autoFocus
@@ -155,11 +153,7 @@ export default function HomePage() {
             </button>
           </form>
 
-          <div className="mt-6 pt-5 border-t border-gray-800/60 text-center">
-            <p className="text-gray-500 text-sm">
-              No account needed — just pick a name and play
-            </p>
-          </div>
+          
         </div>
 
         {/* Links */}

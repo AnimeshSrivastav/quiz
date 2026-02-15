@@ -393,34 +393,8 @@ export default function QuizPage() {
             </div>
           )}
 
-          {/* ─── How It Works (shown when no recent activity) ─ */}
-          {recentWinners.length === 0 && (
-            <div className="glass-card p-6 animate-fade-in">
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
-                How It Works
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
-                <div className="p-4">
-                  <div className="text-2xl mb-2">🧮</div>
-                  <p className="text-sm text-gray-400">
-                    Everyone sees the same question
-                  </p>
-                </div>
-                <div className="p-4">
-                  <div className="text-2xl mb-2">⚡</div>
-                  <p className="text-sm text-gray-400">
-                    First correct answer wins
-                  </p>
-                </div>
-                <div className="p-4">
-                  <div className="text-2xl mb-2">🏆</div>
-                  <p className="text-sm text-gray-400">
-                    Climb the leaderboard
-                  </p>
-                </div>
-              </div>
-            </div>
-          )}
+        
+       
         </div>
       </main>
     </div>

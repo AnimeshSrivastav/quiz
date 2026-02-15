@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Math Quiz Arena — Competitive Math Challenge',
+  title: 'Math Quiz Game',
   description:
-    'Real-time competitive math quiz. Race against other players to solve math problems first!',
+    'Math Quiz Game',
 };
 
 export default function RootLayout({ children }) {
